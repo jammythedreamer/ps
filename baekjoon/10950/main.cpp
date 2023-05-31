@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int solution();
+
+int main()
+{
+    int T;
+    cin >> T;
+
+    for (int i = 0; i < T; i++) {
+        solution();
+    }
+
+    return 0;
+}
+
+int solution() {
+    int A, B;
+    cin >> A >> B;
+
+    cout << A+B << endl;
+    return 0;
+}
