@@ -6,7 +6,7 @@ cd $problem_number
 
 test_case=$(ls input | wc -l)
 
-g++ main.cpp -o program
+g++ -std=c++17 main.cpp -o program
 
 mkdir actual_output
 for ((i=1;i<=$test_case;i++));
