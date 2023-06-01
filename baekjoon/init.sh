@@ -19,6 +19,8 @@ do
     touch output/$i.txt
 done
 
+code main.cpp
+
 echo "######################################################
  init complete for problem $1 with $2 test cases 
  Happy PS!!                                        
