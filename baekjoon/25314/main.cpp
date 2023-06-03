@@ -8,27 +8,16 @@ int main()
     cin.tie(0);
     cout.tie(0);
 
-    int X, N;
+    int N;
 
-    cin >> X >> N;
+    cin >> N;
 
-    for (int i = 0; i < N; i++)
+    for (int i = 0; i < N / 4; i++)
     {
-        int P, C;
-        cin >> P >> C;
-        X -= P * C;
+        cout << "long ";
     }
-
-    if (X == 0)
-    {
-        cout << "Yes"
-             << "\n";
-    }
-    else
-    {
-        cout << "No"
-             << "\n";
-    }
+    cout << "int"
+         << "\n";
 
     return 0;
 }
