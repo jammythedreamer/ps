@@ -19,6 +19,8 @@ do
     touch output/$i.txt
 done
 
+code output/1.txt
+code input/1.txt
 code main.cpp
 
 echo "######################################################
